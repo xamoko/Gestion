@@ -1,0 +1,5 @@
+create table administrador(id int,Nombre text,accound varchar(15),pass varchar(15));
+
+create table medicamentos(clave int,descripcion varchar(30),presentacion varchar(15,EInicial int,TotalEntradas int,TotalSalidas int,EFinal int,FechaCaducacion date,NAnaquel int,NColumna int,NFila int));
+
+create table usuario(nombre text,appat text,apmat text,accound varchar(10),pass varchar(10));

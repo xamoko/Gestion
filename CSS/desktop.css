@@ -1,0 +1,409 @@
+/*=====0CSS by Isaias diaz========*/
+
+*{
+	margin: 2;
+	padding: 2;
+}
+
+
+body {
+	margin-bottom: 50px;
+	background: #fff url(images/img1.gif) repeat-x;
+	font: normal 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3B3B3B;
+}
+
+caption {
+	font: normal 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3B3B3B;
+}
+.green_text {
+		 color: #009900;
+		 font-weight: bold;
+	 	 align: center;
+		 }
+.red_text
+		 {
+		 color: #D20000;
+		 font-weight: bold;
+		 align:center;
+		 }
+.black_text
+		 {
+		 color: #000;
+		 font-weight: bold;
+		 align:center;
+		 /*font-size:11px;		 */
+		 }
+tr.resaltar:hover td{
+    background-color: #Fa4;
+}
+
+.tb2
+{
+	width: 100%;
+	border-collapse: collapse; 
+	margin: 0 auto 1em auto;
+	border: 1px solid #333;
+}
+.tb2 tr
+{
+width: 100%;
+
+}
+
+.tb2 td
+{
+	background-color:#FFF;
+}
+				   
+.tb2 .td1
+{
+	background-color: #BBB;
+	font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+label
+{
+	width: 70%;
+	margin: 0px 15%;
+	font-size: 22px;
+	float: left;
+	text-align: center;
+	color: #555;
+}
+
+.tb3
+{
+	width: 30%;
+	border-collapse: collapse; 
+	margin: 0 auto 1em auto;
+	border: 1px solid #333;
+}
+.tb3 tr
+{
+width: 100%;
+
+}
+
+.tb3 td
+{
+	background-color:#FFF;
+}
+				   
+.tb3 .td1
+{
+	text-align:right;
+	/*background-color: #BBB;*/
+	font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+.formulario
+{
+	width: 45%;
+	border-collapse: collapse; 
+	margin: 0 auto 1em auto;
+	border: 1px solid #333;
+}
+.formulario tr
+{
+width: 100%;
+
+}
+
+.formulario td
+{
+	background-color:#EEE;
+}
+				   
+.formulario .td1
+{
+	text-align:right;
+	background-color: #EEE;
+	font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+
+/*================================*/
+nav
+{
+	height:45px;
+	width:100%;
+	margin:0;
+	z-index:50;
+	position:fixed;
+	clear:both;
+	background-color:#188BF7;
+	box-shadow:0px 0px 10px 0px lightgrey;
+}
+nav section#navcont
+{
+	height:45px;
+	min-width:769px;
+	max-width:1000px;
+	margin:0 auto;
+}
+nav section#navcont img
+{
+	height:45px;
+	width:15%;
+	float:left;
+	margin:0;
+}
+nav section#navcont ul
+{
+	height:45px;
+	width:79%;
+	margin:0;
+	float:left;
+	text-decoration:none;
+	list-style:none;
+}
+nav section#navcont ul li
+{
+	width:20%;
+	height:45px;
+	float:left;
+	transition:.5s;
+	margin:0;
+	text-align:center;
+	color:#fff;
+	padding-top:10px;
+}
+nav section#navcont ul li:hover
+{
+	border-top:5px solid;
+	height:40px;
+	background-color:#3d3d3d;
+}
+
+footer
+{
+	height:45px;
+	width:100%;
+	margin-top: 200px;
+	z-index:50;
+	position:fixed;
+	clear:both;
+	background-color:#188BF7;
+	box-shadow:0px 0px 10px 0px lightgrey;
+}
+
+#logueo
+{
+	height:45px;
+	width:100%;
+	margin-top: 170px;
+	z-index:50;
+	position:fixed;
+	clear:both;
+	background-color:#188BF7;
+	box-shadow:0px 0px 10px 0px lightgrey;
+}
+
+#direccion
+{
+	
+	color:#fff;
+	text-align: center;
+	
+	
+}
+
+
+section#imagenes
+{
+width: 700px;
+padding: 10px 0px;
+margin:20px;
+}				
+section#registro
+{
+width: 400px;
+padding: 10px 0px;
+margin: 0 auto;
+}
+section#tablillas
+{
+width: 960px;
+padding: 10px 0px;
+margin: 0 auto;
+}
+section#tablillas .tb1
+{
+width: 30%;
+margin: 10px 1%;
+float: left;
+border: 1px solid lightgrey;
+}
+
+section#contenedorbajo
+{
+	max-width:1000px;
+	min-width:769px;
+	height:250px;
+	margin:0 auto;
+	border-top:1px solid lightgrey;
+}
+section#contenedorbajo article
+{
+	height:250px;
+	width:20%;
+	float:left;
+	transition:.5s;
+	border-bottom:1px solid lightgrey;
+}
+section#contenedorbajo article:hover
+{	
+	background-color:#353535;
+}
+section#contenedorbajo article img
+{
+	float:left;
+	height:180px;
+	width:90%;
+	margin: 5%;
+}
+section#contenedorbajo article h3, section#bienvenida article h3
+{
+	color:#616465;
+	text-align:center;
+	transition:.5s;
+}
+section#contenedorbajo article:hover h3
+{
+	color:#FF8A00;
+}
+
+section#login
+{
+	width: 940px;
+	padding:10px;
+	
+	background: rgb(233, 237, 232);
+	background: -moz-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -webkit-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -o-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -ms-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: linear-gradient(180deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	margin: 0 auto;
+}
+section#login table
+{
+	width: 40%;
+	height: 200px;
+	margin: 0px 30% 20px 30%;
+}
+
+
+
+section#login table input
+{
+	width: 70%;
+	margin: 0px 15%;
+	height: 25px;
+	border-radius: 3px;
+	border:1px solid lightgrey;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+}
+
+section#login table .submit
+{
+	background-color: #fff;
+	width: 20%;
+	margin: 0px 40%;
+	color: #00670C;
+}
+section#login .mensaje
+{
+	width: 20%;
+	height: 100px;
+	margin: 50px 40%;
+}
+section#login h3
+{
+	color: #00670C;
+	text-align: center;
+	font-family: 'PT Sans', 'sans-serif';
+}
+
+section#loginn
+{
+	width: 940px;
+	padding:10px;
+	
+	background: rgb(233, 237, 232);
+	background: -moz-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -webkit-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -o-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -ms-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: linear-gradient(180deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	margin: 0 auto;
+}
+section#loginn table
+{
+	width: 80%;
+	height: 50px;
+	margin: 20px 60px 20px 60px;
+}
+#boton{
+	background-color:#188BF7;
+	width: 130px;
+	height: 30px;
+	font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-radius: 10px;
+	color: #FFFFFF;
+
+
+}
+
+section#loginnn
+{
+	width: 190%;
+	padding:10px;
+	
+	background: rgb(233, 237, 232);
+	background: -moz-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -webkit-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -o-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: -ms-linear-gradient(90deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	background: linear-gradient(180deg, rgb(233, 237, 232) 30%, rgb(255, 255, 255) 70%);
+	margin: 0 auto;
+}
+section#loginnn table
+{
+	width: 95%;
+	height: 90px;
+	margin: 20px 60px 20px 40px;
+}
+#boton{
+	background-color:#188BF7;
+	width: 130px;
+	height: 30px;
+	font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-radius: 10px;
+	color: #FFFFFF;
+
+
+}
+
+#array{
+	float: none;	
+	list-style: none;
+}
+ #hora{
+ 	float: left;
+ 	list-style: none;
+ }
+ #horas{
+ 	float: left;
+ 	list-style: none;
+ }
+ #dia{
+ 	list-style: none;
+ 	float: left;
+ }

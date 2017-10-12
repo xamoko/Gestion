@@ -1,0 +1,49 @@
+dar de alta el proceso minetras no se inicie no e puede realizar... de lo contrario colocar una pantalla qie diga que ese proceso no se lleva a cabo ya que es por periodos
+dar de alta las materias
+mostrar quienes pidieron las materias por nombre de docente
+listar las materias por carrera
+crut de materias (plan de estudio, nombre de la materia, clave, horas de materia, carrera,creditos)
+curriculum academico del maestro
+
+SUPERUSUAIO ROOT :> capacidad de crear carreras/divisiones/departamentos 
+editar etiquetas
+
+LAs actividades de los docentes de dividene en 4 areas
+
+DOCENCIA 
+Asesoria de residencias
+preparacion de clases y correcion de examenes
+actividades complementarias
+INVESTIGACION
+proyectos
+TUTORIA
+gestion y vinculacion 
+actividades de academia
+vinculacion con empresas
+elaboracion de planes y prgramas de estudio
+
+
+
+1 eleccion del horario
+2 eleccion de materias
+3 eleccion de actividades de descarga
+	(hacer una planilla con cajas de opciones(checkbox))
+
+horario de labores perzonalizado
+
+mostrar plan de estudios(pdf)
+porq quieres dar esa materia(comentario 256 caracteres)
+cargar plan de estudios en el crood
+cuadro de "Docentes que han solicitado la materia" y que solo aparezca el numero
+
+administrador, subdirector, coordinador, docente
+
+formato de impresion de horario, materias y actividades de descarga (lo hara el ojefe de carrera)
+
+manual de operaciones, diccionario de datos(base de datos), diccionario de codigo, impresiones de pantalla por modulo
+
+ERROES:
+1.- IMAGENES.
+2.- SUBIR EL PDF.
+3.- CORREGIR VARIABLES DE ACTUALIZAR (ORTOGRAFIA).
+4.-http://localhost/xamoko/html/SistemasComputacionales/ActualizarMateriaSistemasComputacionales.php AGREGAR PARA ACTUALIZAR EL PDF

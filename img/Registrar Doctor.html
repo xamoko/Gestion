@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://localhost/ricardo/html/actualizar_medicamento2.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Registrar Doctor</title>
+<link rel="stylesheet" type="text/css" href="./Registrar Doctor_files/estilo2.css">
+  <link rel="stylesheet" type="text/css" href="./Registrar Doctor_files/default.css">
+<link rel="stylesheet" href="./Registrar Doctor_files/validationEngine.jquery.css" type="text/css">
+<script type="text/javascript" src="./Registrar Doctor_files/jquery-1.5.js"></script>
+            <script src="./Registrar Doctor_files/jquery.validationEngine-es.js" type="text/javascript"></script>
+            <script src="./Registrar Doctor_files/jquery.validationEngine.js" type="text/javascript"></script>
+            <script language="javascript">jQuery(document).ready(function(){jQuery("#validar_actualizar_Medicamento").validationEngine();});</script>
+            <script src="./Registrar Doctor_files/validar_actualizar_Medicamento.js" type="text/javascript"></script>
+            <script language="javascript">jQuery(document).ready(function(){jQuery("#validar_actualizar_Medicamento2").validationEngine();});</script>
+            <script src="./Registrar Doctor_files/validar_actualizar_Medicamento2.js" type="text/javascript"></script>
+</head><body>
+<div id="container">
+<header>
+ <img src="./Registrar Doctor_files/3.jpg" width="339" height="84" alt="logo"> 
+<nav>
+<ul>
+<li><a href="http://localhost/ricardo/html/Medicamentos.php" class="current"> Inicio</a></li>
+<li><a href="http://localhost/ricardo/html/desconectar.php"> Salir del Sistema</a></li>
+<li>Bienvenido <b>xamoko</b>. 
+            </li>
+</ul>
+</nav>
+</header>
+
+        <form name="validar_actualizar_Medicamento" id="validar_actualizar_Medicamento" method="post" onblur="limpia()" class="register">
+        <br>
+        <br>
+        <br>
+        <h1>Introduzca la Clave del Medicamento que Desea Actualizar </h1>
+
+        <fieldset class="row1">
+            <legend>Datos</legend>
+        </fieldset>
+
+         <table class="tb1">
+            <caption>Actualizar Medicamento</caption>
+
+            <tbody><tr>
+                <td class="t3">Clave</td>
+                <td><input type="text" name="clave" id="clave" placeholder="Clave" class="validate[required]"></td>
+                    </tr>
+
+                    <tr><td></td>
+                <td class="t3"><button type="button" value="Buscar" onclick="validar_actualizar_Medicamentos()" class="button">Buscar</button></td>
+                    </tr>   
+        </tbody></table>
+        <fieldset class="row4">
+         
+                <legend align="center">¿Ingresaste los datos correctamente?</legend>
+                
+            </fieldset>
+
+                    
+        </form>
+        
+    
+    <div align="center" id="respuesta">
+
+
+              <form name="validar_actualizar_Medicamento2" id="validar_actualizar_Medicamento2" method="post" onblur="limpia()">
+              <table>
+              <tbody><tr>
+                                <td class="t3">Descripcion</td>
+                                <td><input type="text" name="descripcion" id="descripcion" value="te sanchan" class="validate[required]"></td>
+                            </tr>
+                            <tr>
+                                <td class="t3">Presentacion</td>
+                                <td><input type="text" name="presentacion" id="presentacion" value="holasss" class="validate[required]"></td>
+                            </tr>
+                            <tr>
+                                <td class="t3">Existencia Inicial</td>
+                                <td><input type="text" name="existencia_inicial" id="existencia_inicial" value="2" class="validate[required]"></td>
+                            </tr>
+                            <tr>
+                                <td class="t3">Total Entradas</td>
+                                <td><input type="text" name="total_entradas" id="total_entradas" value="2" class="validate[required]"></td>
+                            </tr>
+                            <tr>
+                                <td class="t3">Total Salidas</td>
+                                <td><input type="text" name="total_salidas" id="total_salidas" value="2" class="validate[required]"></td>
+                            </tr>
+                            <tr>
+                                <td class="t3">Existencia Final</td>
+                                <td><input type="text" name="existencia_final" id="existencia_final" value="2" class="validate[required]"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="t3">Numero de Anaquel</td>
+                                <td><input type="text" name="numero_de_anaquel" id="numero_de_anaquel" value="8" class="validate[required]"></td>
+                            </tr>
+                            <tr>
+                                <td class="t3">Numero de Columna</td>
+                                <td><input type="text" name="numero_de_columna" id="numero_de_columna" value="9" class="validate[required]"></td>
+                            </tr>
+                            <tr>
+                                <td class="t3">Numero de Fila</td>
+                                <td><input type="text" name="numero_de_fila" id="numero_de_fila" value="9" class="validate[required]"></td>
+                            </tr>
+                            <tr><td></td>
+                                <td class="t3"><input type="button" value="Actualizar" onclick="validar_actualizar_Medicamentos2()" class="button"></td>
+                                
+                            </tr>  
+                            </tbody></table>
+                            </form></div>
+
+
+</div></body></html>
